@@ -1,18 +1,10 @@
-# CdK Admin - FREE PREMIUM ANGULAR 6+ MATERIAL DESIGN+FLEX LAYOUT ADMIN PANEL
+<h1 align="center"width="400">VAND Frontend test</h1>
 
-Upgrade to latest angular - ongoing
-DEMO: https://cdk-admin.web.app
-
-
-for bugs use github issue tracker 
-
-## Changelog
-- Integrated sort on Responsive Tables
-- Small Flex alignments
-- Replaced ngx-perfect-scrollbar with ngx-scrollbar
-- Replaced ng9-odometer with ng9-odometer
-
-## Todo
-- Chat
-- Mail
-- Editor
+<h3>How to run</h3>
+<ul>
+    <li>Clone the project</li>
+    <li>Go to the folder application using cd command on your cmd or terminal</li>
+    <li>Run npm i on your cmd or terminal</li>
+    <li>Run ng s update on your cmd or terminal</li>
+    <li>Open browser and go to page http://localhost:4000</li>
+</ul>
