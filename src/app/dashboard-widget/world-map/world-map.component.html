@@ -1,0 +1,40 @@
+<div fxLayout="column" fxLayout.xs="column" style="background-color: white;padding: 10px;">
+
+	<div class="mat-headline" style="margin: 20px; border-bottom: 1px solid #dddddd;">
+	</div>
+
+	<div fxLayout="row" fxLayout.xs="column">
+		<div fxFlex.gt-xs="35" style="padding-top: 10px;">
+			<!-- Country list -->
+			<table class="table">
+				<tr *ngFor="let detail of content.data">
+						<td (click)="searchstats(detail.name)" class="mat-subheading-1">{{ detail.name }}</td>
+						<td class="text-right mat-subheading-1"><img [src]="detail.flags.svg" style="height: 50x; width: 50px" alt=""></td>
+					</tr>
+			</table>
+
+		</div>
+		<div class="search-background w-100 h-100" (click)="searchstats($event)" [ngClass]="search ? 'd-block' : ''">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Country infomation</h5>
+					</div>
+					<div class="modal-body">
+						<span>Capital: {{content.capital.capital}}</span> <br>
+						<span>Population: {{content.capital.population}}</span> <br>
+						<span>Flag: <img [src]="content.capital.flag" style="height: 50px; width: 50px" alt=""></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div fxFlex.gt-xs="10"></div>
+
+		<div style="padding: 5px 10px;" fxFlex.gt-xs="55">
+			<div id="chartdiv" style="height: 300px;">
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal -->
