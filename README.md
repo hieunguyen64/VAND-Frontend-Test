@@ -5,6 +5,6 @@
     <li>Clone the project</li>
     <li>Go to the folder application using cd command on your cmd or terminal</li>
     <li>Run npm i on your cmd or terminal</li>
-    <li>Run ng s update on your cmd or terminal</li>
+    <li>Run ng s on your cmd or terminal</li>
     <li>Open browser and go to page http://localhost:4000</li>
 </ul>
