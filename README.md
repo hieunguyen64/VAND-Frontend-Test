@@ -6,5 +6,8 @@
     <li>Go to the folder application using cd command on your cmd or terminal</li>
     <li>Run npm i on your cmd or terminal</li>
     <li>Run ng s on your cmd or terminal</li>
-    <li>Open browser and go to page http://localhost:4000</li>
+    <li>Get the Development Listening Server in terminal </li>
+    ![Screen Shot 2022-11-28 at 20 50 47](https://user-images.githubusercontent.com/58379892/204294229-5238a414-18c8-41b0-acc5-0bd3c21c725b.png)
+     <li>Open browser and paste the address</li>
 </ul>
+
